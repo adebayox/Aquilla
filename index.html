@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final year week</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'> -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <h1 class="logo">Final Year Weekend</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="#"></a>Home</li>
+        <li>
+          <a href="https://forms.gle/iGPyFBvgMR8TgdAd8" target="_blank"
+            >Aquilla Awards</a
+          >
+        </li>
+        <li class="active"><a href="payment.html">Payment</a></li>
+        <li><a href="#"></a>About</li>
+        <li class="ctn"><a href="#"></a>Contact</li>
+      </ul>
+      <img src="./img/menu-btn.png" alt="" class="menu-btn" />
+    </nav>
+    <header>
+      <div class="header-content">
+        <h2>Aquilla set 2022</h2>
+        <div class="line"></div>
+        <h1>A Prosperous Journey Ahead</h1>
+        <!-- <a href="#" class="ctn">Learn More</a> -->
+      </div>
+    </header>
+
+    <!-- EVENTS -->
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="./img/sportpic.JPG" alt="" />
+          <h4>Sport and games</h4>
+          <p>FRIDAY, 22 JULY 2022</p>
+          <!-- <a href="#" class="ctn">Learn More</a> -->
+        </div>
+        <div class="col">
+          <img src="./img/Dinner.jpg" alt="" />
+          <h4>Cocktail & Award Night</h4>
+          <p>SATURDAY, 23 JULY 2022.</p>
+          <!-- <a href="#" class="ctn">Learn More</a> -->
+        </div>
+        <div class="col">
+          <img src="./img/thanks.jpg" alt="" />
+          <h4>Thanksgiving</h4>
+          <p>SUNDAY, 24 JULY 2022.</p>
+          <!-- <a href="#" class="ctn">Learn More</a> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="explore">
+      <div class="explore-content">
+        <h1>Want to make payment?</h1>
+        <div class="line"></div>
+        <p>
+          Make your payment to this account number:
+          <br />
+          Account name : Olowojare boluwatife
+          <br />
+          Account number : 4253069189<br />
+          Bank name : Zenith Bank
+        </p>
+        <a href="#" class="ctn">Contact Fin. Sec</a>
+      </div>
+    </section>
+
+    <section class="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>Memory Lane</h1>
+          <div class="line"></div>
+          <p>
+            Throwback photos of students who gained admission into the
+            university in 2018 academic session.
+          </p>
+          <!-- <a href="#" class="ctn">Learn More</a> -->
+        </div>
+        <div class="col">
+          <div class="image-gallery">
+            <img src="./img/Image1.jpg" alt="" />
+            <img src="./img/Image2.jpg" alt="" />
+            <img src="./img/image3.jpg" alt="" />
+            <img src="./img/image4.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <p>Aquilla Set 2021/2022</p>
+      <p>Creativ Directors Obaze Emmanuel, Adebayo david</p>
+      <p>Copyright Adebayo David 2022</p>
+    </section>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
