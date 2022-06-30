@@ -10,7 +10,7 @@ ul {
   list-style: none;
 }
 .active {
-  color: #fc036b;
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
@@ -39,6 +39,12 @@ html {
   margin: 0 30px;
   color: white;
 }
+.nav-links li:hover {
+  color: white;
+
+  
+}
+
 header {
   width: 100vw;
   height: 100vh;
@@ -256,4 +262,9 @@ p {
   .footer {
     padding: 10px;
   }
+
+
+
+
+
 }
