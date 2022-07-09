@@ -93,9 +93,11 @@ body {
 }
 .check {
   color: rgb(100, 234, 100);
+  font-size: larger;
 }
 .times {
   color: red;
+  font-size: larger;
 }
 
 @media screen and (max-width: 1100px) {
